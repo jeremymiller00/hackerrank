@@ -1,14 +1,7 @@
     def divisibleSumPairs(n: Int, k: Int, ar: Array[Int]): Int = {
 
-        var result = 0
-        val end = ar.size - 1
-        for (i <- 0 to (end - 1)) {
-            for (j <- (i+1) to (ar.size - 1)) {
-                if ( (ar(i) + ar(j)) % k == 0 ) {
-                    result += 1
-                } 
-            }
-        }
-        return result
+      val indexPairs = ar.indices.flatMap(i => ar.indices.slice(i + 1, ar.length).map(j => (i, j)))
 
+      val divisible = indexPairs.count(pair => (ar(pair._1) + ar(pair._2)) % divisor == 0)        
+      return divisible
     }

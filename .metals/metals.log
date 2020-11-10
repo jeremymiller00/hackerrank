@@ -1,0 +1,12 @@
+2020.11.09 18:07:14 INFO  started: Metals version 0.9.4 in workspace '/Users/jeremymiller/hackerrank' for client vscode.
+2020.11.09 18:07:14 INFO  time: initialize in 0.31s
+2020.11.09 18:07:15 WARN  no build tool detected in workspace '/Users/jeremymiller/hackerrank'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 18:07:16 INFO  no build target: using presentation compiler with only scala-library
+2020.11.09 18:07:16 WARN  no build target for: /Users/jeremymiller/hackerrank/src/applesAndOranges.scala
+2020.11.09 18:08:05 WARN  no build target for: /Users/jeremymiller/hackerrank/src/birthdayChocolate.scala
+2020.11.09 18:08:09 WARN  no build target for: /Users/jeremymiller/hackerrank/src/calendar.scala
+2020.11.09 18:08:14 WARN  no build target for: /Users/jeremymiller/hackerrank/src/countingValleys.scala
+2020.11.09 18:08:18 WARN  no build target for: /Users/jeremymiller/hackerrank/src/divisibleSumPairs.scala
+2020.11.09 18:08:22 WARN  no build target for: /Users/jeremymiller/hackerrank/src/electronicsShop.scala
+2020.11.09 18:08:40 WARN  no build target for: /Users/jeremymiller/hackerrank/src/newtonsSquareRoot.scala
+2020.11.09 18:09:21 WARN  no build target for: /Users/jeremymiller/hackerrank/src/kangaroo.scala
